@@ -1,0 +1,868 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inria Sans', sans-serif;
+
+}
+nav{
+    background-color: #0057FF;
+}
+nav ul li{
+    color: #ffff;
+}
+
+.main-container {
+    width:auto;
+    padding: 30px;
+    background-color: #0057FF;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.main-container h1 {
+    padding-top: 9rem;
+    margin-left: 2.5rem;
+    font-size: 46px;
+    text-align: justify;
+}
+
+.main-container img {
+    height: auto;
+    width: auto;
+}
+
+.search {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    background-color: #0057FF;
+    padding: 1rem 8rem;
+}
+
+.search .city {
+    background-color: white;
+    padding: 20px;
+}
+
+.search .city h5 {
+    padding-bottom: 10px;
+}
+
+.search input {
+    outline: none;
+    padding: 10px;
+    border: 1px solid #0057FF;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.booked{
+    background-color: white;
+    padding-left:0;
+    padding-right:1rem;
+}
+.booked button {
+    padding: 10px 40px;
+    background-color: #7ED348;
+    outline: none;
+    border: none;
+    font-size:12px;
+    margin-left:1rem;
+    margin-top:4rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.how-its-work h1 {
+    padding: 5rem 0 2rem 0;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+.icons {
+    padding: 0;
+    margin: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.icon-car img {
+    margin-bottom: 1rem;
+    height: 150px;
+    border: 1px solid #0057FF;
+    border-radius: 50%;
+}
+
+.icon-car {
+    background-color: #7ED348;
+    margin: 0 4rem;
+    padding: 1rem 3rem;
+    letter-spacing: 0;
+    border-radius: 40px;
+    text-align: center;
+
+}
+
+.icon-car h4 {
+    margin-bottom: 1rem;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon-car p {
+    font-size: 16px;
+    text-align: start;
+    letter-spacing: normal;
+
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #0057FF;
+}
+
+.our-cars {
+    padding: 4rem 0 3rem 0;
+    text-align: center;
+
+}
+
+.our-cars h1 {
+    font-size: 32px;
+    padding-bottom: 5rem;
+}
+
+.car-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.cars {
+    padding: 0 2rem 4rem;
+}
+
+.cars img {
+    height: 200px;
+    width: auto;
+}
+
+.cars h4 {
+    padding: 2rem 0 0.5rem 0;
+    font-size: 18px;
+}
+
+.pricing {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.pricing h1 {
+    font-size: 32px;
+    margin-bottom: 5rem;
+
+}
+
+.pracing-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.vehicle {
+    margin: 0 2rem 2rem 2rem;
+
+}
+
+.vehicle h4 {
+    padding: 1rem 0.5rem;
+    font-size: 18px;
+}
+
+
+
+.Vehicle-info-1 {
+    background-color: #7ED348;
+    border-radius: 10px;
+    padding: 0 1rem;
+
+}
+
+.Vehicle-info-1 h5 {
+    font-size: 16px;
+    padding: 0.5rem;
+}
+
+.Vehicle-info h5 {
+    padding: 0.5rem;
+    text-align: left;
+    color: grey;
+    font-size: 16px;
+}
+
+
+.find-a-car {
+    text-align: center;
+    padding: 4rem;
+}
+
+.find-a-car h1 {
+    font-size: 32px;
+}
+
+.map {
+    margin-top: 4rem;
+}
+
+.location-search {
+    padding: 3rem 0 0 0;
+}
+
+.location-search input {
+    padding: 0.5rem 3rem;
+    outline: none;
+    border: 1px solid #7ED348;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 14px
+}
+
+.location-btn {
+    padding: 10px 40px;
+    background-color: #7ED348;
+    outline: none;
+    border: none;
+    font-size:12px;
+    margin-top:4rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0057FF;
+    padding: 5rem;
+    border-radius: 50px 50px 0 0;
+
+}
+
+.footer h1 {
+    font-size: 46px;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.footer span {
+    padding: 0.5rem;
+    color: white;
+    font-size: 16px;
+
+}
+
+.social {
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.social i {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.social i:hover {
+    color: #7ED348;
+}
+
+
+@media screen and (max-width: 1024px) {
+    nav{
+        min-width: 115%;
+    }
+    .main-container {
+        min-width: 115%;
+    }
+
+    .main-container h1 {
+        font-size: 48px;
+        padding-top: 9rem;
+    }
+
+    .search {
+        min-width: 115%;
+        padding-left: 15%;
+    }
+
+    .btn {
+        padding: 2rem 1rem;
+    }
+
+    button {
+        margin-top: 0.5rem;
+        padding: 15px 40px;
+        font-size: 14px;
+
+
+    }
+
+    .how-its-work {
+        margin-left: 6rem;
+    }
+
+    .icon-car {
+        margin: 3rem;
+    }
+
+    .our-cars {
+        margin-left: 6rem;
+    }
+
+    .cars {
+        margin: 0;
+        padding: 0.5rem;
+    }
+
+    .pricing {
+        margin-left: 6rem;
+    }
+
+    .pracing-table {
+        margin-left: 6rem;
+    }
+
+    .find-a-car {
+        margin-left: 6rem;
+        text-align: center;
+    }
+
+    .map iframe {
+        margin-left: 1rem;
+    }
+
+    .location-search {
+        margin-left: 2rem;
+    }
+
+    .footer {
+        min-width: 115%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 10px 20px;
+    }
+
+    .social {
+        flex-direction: row;
+        text-align: end;
+        padding: 10px;
+        margin-left: 45%;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+        min-width: 149%;
+    }
+    .main-container {
+        padding-top: 3rem;
+        min-width: 149%;
+
+    }
+
+    hr {
+        min-width: 149%;
+
+    }
+
+    .main-container h1 {
+        font-size: 38px;
+        padding-top: 7rem;
+        margin-left: 0;
+    }
+
+    .main-container img {
+        max-width: 440px;
+
+    }
+
+    .search {
+        min-width: 149%;
+        padding-left: 18%;
+    }
+
+    .btn {
+        padding: 2rem 1rem;
+    }
+
+    button {
+        margin-top: 0.5rem;
+        padding: 15px 40px;
+        font-size: 14px;
+
+
+    }
+
+    .how-its-work {
+        margin-left: 50%;
+    }
+
+    .icon-car {
+        margin: 2rem;
+    }
+
+    .our-cars {
+        margin-left: 50%;
+    }
+
+    .cars {
+        margin: 0;
+        padding: 5px;
+    }
+
+    .cars img {
+        max-width: 330px;
+    }
+
+    .pricing {
+        margin-left: 50%;
+    }
+
+    .pracing-table {
+        margin-left: 45%;
+    }
+
+    .vehicle {
+        padding: 15px;
+    }
+
+    .vehicle h4 {
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .Vehicle-info-1 {
+        padding: 10px 40px;
+    }
+
+    .Vehicle-info {
+        padding: 15px;
+        margin: 0px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Vehicle-info h5 {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .find-a-car {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .find-a-car h1 {
+        margin-left: 55%;
+        text-align: center;
+    }
+
+    .location-search {
+        margin-left: 4rem;
+    }
+
+    .footer {
+        min-width: 149%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 10px 20px;
+    }
+
+    .social {
+        flex-direction: row;
+        text-align: end;
+        padding: 10px;
+        margin-left: 45%;
+    }
+
+
+
+}
+
+@media screen and (max-width:425px) {
+    nav {
+        min-width:240%;
+    }
+    nav ul li{
+        font-size:24px;
+        text-align: center;
+        padding-top:2rem;
+        padding-bottom:1rem;
+    }
+
+    .main-container {
+        padding-top: 3rem;
+        min-width: 240%;
+
+    }
+
+    hr {
+        min-width: 240%;
+
+    }
+
+    .main-container h1 {
+        font-size: 36px;
+
+    }
+
+    .search {
+        padding-left: 45%;
+        min-width: 240%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .city input {
+        min-width: 500px;
+        min-height: 60px;
+        font-size: 22px;
+    }
+
+    .city h5 {
+        font-size: 24px;
+    }
+
+    .booked button {
+        margin-top:1rem;
+        margin-bottom:1rem;
+        min-width: 500px;
+        min-height: 60px;
+        font-size: 22px;
+    }
+
+    .how-its-work {
+        min-width: 240%;
+        margin-left: 0;
+
+    }
+
+    .our-cars {
+        min-width: 240%;
+        margin-left: 0;
+
+    }
+
+    .pricing {
+        min-width: 240%;
+        margin-left: 0;
+    }
+
+    .pracing-table {
+        margin-left: 120%;
+        padding:0;
+
+    }
+    .vehicle h4{
+        font-size:24px;
+        margin:0;
+        padding-bottom:1rem;
+    }
+    .Vehicle-info-1{
+        margin-top:1rem;
+    }
+    .Vehicle-info-1 h5{
+        font-size: 22px;
+        font-weight:bold;
+        padding-bottom:1rem;
+
+    
+    }
+    .Vehicle-info{
+        padding:0;
+    }
+    .Vehicle-info h5{
+        font-size:22px;
+        padding-bottom:1.4rem;
+        
+    }
+
+    .find-a-car {
+        min-width: 240%;
+        margin-left: 0;
+    }
+
+    .find-a-car h1 {
+        margin-left: 0;
+    }
+
+    .footer {
+        min-width: 240%;
+
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    nav{
+        min-width: 252%;
+    }
+    
+    .main-container {
+        padding-top: 3rem;
+        min-width: 252%;
+
+    }
+
+    hr {
+        min-width: 252%;
+
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-container img {
+        min-width: 820px;
+
+    }
+
+    .main-container h1 {
+        font-size: 48px;
+        margin-left: 15%;
+        padding: 0;
+
+    }
+
+    .search {
+        padding-left: 40%;
+        min-width: 252%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .city input {
+        min-width: 500px;
+        min-height: 60px;
+        font-size: 22px;
+    }
+
+    .how-its-work .icons {
+        flex-direction: column;
+
+    }
+
+    .icon-car {
+        margin-left: 10rem;
+        max-width: 460px;
+        min-height: 400px;
+    }
+
+    .icon-car h4 {
+        padding-top: 1rem;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .icon-car p {
+        padding-top: 1rem;
+        font-size: 22px;
+    }
+
+    .car-container {
+        flex-direction: column;
+
+    }
+
+    .cars img {
+        min-width: 500px;
+        min-height: 400px;
+    }
+
+    .cars h4 {
+        font-size: 26px;
+    }
+
+    .cars p {
+        font-size: 24px;
+    }
+
+    .map iframe {
+        max-width: 800px;
+    }
+
+    .footer {
+        min-width: 252%;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:320px) {
+    nav{
+        min-width: 275%;
+    }
+    .main-container {
+        padding-top: 3rem;
+        min-width: 275%;
+
+    }
+
+    hr {
+        min-width: 275%;
+
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-container img {
+        min-width: 820px;
+
+    }
+
+    .main-container h1 {
+        font-size: 48px;
+        margin-left: 15%;
+        padding: 0;
+
+    }
+
+    .search {
+        padding-left: 30%;
+        min-width: 275%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .city input {
+        min-width: 500px;
+        min-height: 60px;
+        font-size: 22px;
+    }
+
+    .how-its-work h1 {
+        margin-left: 8rem;
+    }
+
+    .how-its-work .icons {
+        flex-direction: column;
+
+    }
+
+    .our-cars h1 {
+        margin-left: 8rem;
+    }
+
+    .icon-car {
+        margin-left: 10rem;
+        max-width: 460px;
+        min-height: 400px;
+    }
+
+    .icon-car h4 {
+        padding-top: 1rem;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .icon-car p {
+        padding-top: 1rem;
+        font-size: 22px;
+    }
+
+    .car-container {
+        flex-direction: column;
+        margin-left: 20%;
+
+    }
+
+    .cars img {
+        min-width: 500px;
+        min-height: 400px;
+    }
+
+    .cars h4 {
+        font-size: 26px;
+    }
+
+    .cars p {
+        font-size: 24px;
+    }
+    .pricing {
+        margin-left: 4rem;
+        text-align:center;
+    }
+
+    .pracing-table{
+        padding-left:4rem;
+    }
+    .Vehicle-info-1{
+        margin-top:2rem;
+    }
+    .Vehicle-info-1 h5{
+        padding:0;
+        font-size:22px;
+        font-weight: bold;
+        margin-bottom:20px;
+        margin-top:1.1rem;
+    }
+
+    .vehicle h4{
+        margin-bottom:3rem;
+        font-size:22px;
+        margin-left:0;
+    }
+    .vehicle{
+        padding:0;
+    }
+    .Vehicle-info h5{
+        margin:0;
+        font-size:22px;
+        font-weight: bold;
+        justify-content: center;
+        padding-bottom:1rem;
+    }
+
+
+    .find-a-car h1{
+        margin-left:8rem;
+    }
+
+    .map iframe {
+        max-width:680px;
+        margin-left:3rem;
+    }
+
+    .footer {
+        min-width: 275%;
+
+    }
+
+
+}
